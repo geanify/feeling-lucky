@@ -1,0 +1,39 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cqt2vt43htdn8"]
+
+[ext_resource type="Texture2D" uid="uid://ch3p3vb2yndrx" path="res://assets/Basic Asset Pack/basic magical animations/novice pyromancer/NovicePyromancer.png" id="1_lri6l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frpsu"]
+atlas = ExtResource("1_lri6l")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_euxyh"]
+atlas = ExtResource("1_lri6l")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_78sr7"]
+atlas = ExtResource("1_lri6l")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4hyrm"]
+atlas = ExtResource("1_lri6l")
+region = Rect2(48, 0, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frpsu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_euxyh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_78sr7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4hyrm")
+}],
+"loop": true,
+"name": &"move",
+"speed": 5.0
+}]
